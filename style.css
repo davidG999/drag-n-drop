@@ -11,6 +11,7 @@ body {
   padding-top     : 5rem;
   justify-content : center;
   overflow        : hidden;
+  min-height      : 100vh;
   margin          : 0;
 }
 
@@ -28,6 +29,7 @@ body {
   padding      : 0.8rem 1rem;
   color        : #fff;
   text-align   : center;
+  transition   : .15s;
 }
 
 .item {
@@ -76,6 +78,7 @@ body {
   border: 3px dotted #37c3ee;
 }
 
-.border {
-  border: 2px solid #111;
+.shadow {
+  transition: .15s;
+  box-shadow: 0 0 10px 3px rgba(17, 17, 17, 0.400);
 }

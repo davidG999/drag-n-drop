@@ -46,20 +46,20 @@ function dragDrop(event) {
 
 function makeBorder(event) {
   if (event.target.closest('.placeholder-start')) {
-    start.classList.add('border')
+    start.classList.add('shadow')
   } else if (event.target.closest('.placeholder-progress')) {
-    progress.classList.add('border')
+    progress.classList.add('shadow')
   } else if (event.target.closest('.placeholder-done')) {
-    done.classList.add('border')
+    done.classList.add('shadow')
   }
 }
 
 function removeBorder(event) {
   if (event.target.closest('.placeholder-start')) {
-    start.classList.remove('border')
+    start.classList.remove('shadow')
   } else if (event.target.closest('.placeholder-progress')) {
-    progress.classList.remove('border')
+    progress.classList.remove('shadow')
   } else if (event.target.closest('.placeholder-done')) {
-    done.classList.remove('border')
+    done.classList.remove('shadow')
   }
 }
